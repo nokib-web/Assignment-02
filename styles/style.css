@@ -90,6 +90,26 @@ nav ul li{
     nav div li{
         display: none;
     }
+    .navbar{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .bannar{
+        flex-direction: column-reverse;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .bannar-title{
+        font-size: 24px;
+        font-weight: bold;
+    }
+    #fafa{
+        margin: 0;
+    }
+    .bannar-description{
+        font-size: 14px;
+    }
   
     }
 
