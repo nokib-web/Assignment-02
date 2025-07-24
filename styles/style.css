@@ -137,7 +137,7 @@ nav ul li{
 /* flower slover section style */
 .flower-lover{
     display: flex;
-    gap: 30px;
+    gap: 60px;
     margin: 0px auto;
     margin-top: 300px;
     width: 1140px;
@@ -233,7 +233,7 @@ height: 47px;
 padding: 0px;
 position: relative;
 
-padding-left: 20px;
+/* padding-left: 20px; */
 
 
 }
@@ -257,6 +257,50 @@ padding-left: 20px;
     margin-bottom: 20px;
     ;
 }
+
+
+
+/* Footer related style */
+footer{
+    width: 1440px;
+    height: 348px;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-logo img{
+    padding: 20px;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+}
+.footer-link1 ul li{
+    list-style: none;
+    
+   
+}
+.footer-description{
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.footer-link1 a{
+    text-decoration: none;
+    row-gap: 32px;
+    color: rgba(107, 114, 128, 1);
+}
+.footer-link2 li{
+    list-style: none;
+   
+}
+.footer-link2 a{
+    text-decoration: none;
+    color:rgba(107, 114, 128, 1) ;
+}
+
     
   
 
@@ -307,7 +351,7 @@ padding-left: 20px;
     }
     .bannar img{
         width: 530px;
-        /* margin-right: 10px; */
+       
     }
     
     .bannar-title{
@@ -358,9 +402,8 @@ padding-left: 20px;
     position: none;
     margin: 0 auto;
 }
-.flower-lover img{
-    /* width: 100%; */
-}
+
+
 
 
 .lover-item{
@@ -403,7 +446,7 @@ padding-left: 20px;
     position: relative;
 }
 .join-card img{
-    width: 95%;
+    width: 100%;
     
     
 }
@@ -420,6 +463,17 @@ padding-left: 20px;
 }
 .join-text h4{
     font-size: 20px; 
+}
+
+/* footer section responsive */
+footer{
+    max-width: 576px;
+    margin: 0 auto;
+}
+.footer-container{
+    flex-direction: column;
+    justify-items: center;
+    margin-left: 20px;
 }
 
 }
