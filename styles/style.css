@@ -1,4 +1,6 @@
 
+
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
 
@@ -181,15 +183,97 @@ nav ul li{
 
 
 
+/* discount card related style */
+/* .discount-card{
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+}
+.discount-card img{
+    border-radius: 10px;
+}
+.card-text{
+    position: absolute;
+  
+    color: aliceblue;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+} */
+
+
+/* join related style */
+.join-card img{
+    width: 100%;
+    /* position: relative; */
+    
+}
+.join{
+    margin: 0 auto;
+    width: 1440px;
+    
+    margin-top: 120px;
+    position: relative;
+}
+.join-text{
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    top: 25%;
+    left: 18%;
+    gap: 0px
+    
+}
+.join-text input{
+    width: 51.875rem;
+height: 47px;
+
+padding: 0px;
+position: relative;
+
+padding-left: 20px;
+
+
+}
+.join-text button{
+    width: 11.625rem;
+    height: 50px;
+    
+    background-color: #E95A08;
+    color: white;
+    border: none;
+    position: absolute;
+    right: 0px;
+  
+    
+ 
+}
+.join-text h4{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+    ;
+}
+    
+  
+
+
+
+
     /*mobile responsive  */
 
 @media screen and (max-width:576px){
+
    /* navbar and bannar responsive */
     
         
     
    nav{
         margin: 0 auto;
+        margin-left: 20px;
        
         
     }
@@ -200,6 +284,7 @@ nav ul li{
     nav div li{
         display: none;
     }
+   
     .navbar{
         width: 100%;
         margin: 0 auto;
@@ -236,7 +321,7 @@ nav ul li{
     .card-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 15px;
+        gap: 10px;
         max-width: 576px;
 
         
@@ -244,6 +329,7 @@ nav ul li{
      .card{
         height: fit-content;
         width:100%;
+        
   }
   
 /* lover responsive */
@@ -279,5 +365,38 @@ nav ul li{
 }
 
 
+
+
+/* join section responsive */
+.join{
+    width: 550px;
+    
+   
+    position: relative;
+}
+.join-text input{
+    max-width: 321px;
+    height: 47px;
+    position: relative;
+}
+.join-card img{
+    width: 100%;
+    
+    
+}
+
+.join-text{
+    
+    position: absolute;
+    left: 18%;
+    top: 20%;
+}
+.join-text button{
+    position: absolute;
+    width: 103px;
+}
+.join-text h4{
+    font-size: 20px; 
+}
 
 }
