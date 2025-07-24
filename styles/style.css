@@ -128,6 +128,35 @@ nav ul li{
     border: none;
 }
 
+/* flower slover section style */
+.flower-lover{
+    display: flex;
+    gap: 60px;
+    margin: 200px auto;
+    width: 1140px;
+   
+}
+
+.badge{
+    width: 286px;
+    height: 286px;
+    margin-left: 347px;
+    margin-top: -127px;
+    position: absolute;
+    
+}
+.lover-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.lover-item ul li{
+    font-size: 22px;
+    color: #8987A1;
+    gap: 0px;
+}
+
+
+
     /*mobile responsive  */
 
 @media screen and (max-width:576px){
@@ -171,6 +200,14 @@ nav ul li{
     }
 
     /* our plant responsive */
+    .plant{
+        text-align: center;
+        justify-items: center;
+    }
+    .plant-description{
+        text-align: center;
+        justify-items: center;
+    }
     .card-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -181,12 +218,23 @@ nav ul li{
   }
      .card{
         height: fit-content;
+        width:100%;
   }
-    .plant{
-        /* justify-items: center; */
-        text-align: center;
-        align-items: center;
-        align-content: center;
-    }
+  
+/* lover responsive */
+.flower-lover{
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    position: none;
+    margin: 0 auto;
+}
+.badge{
+    display: none;
+    position: none;
+    
+}
+
+
 
 }
