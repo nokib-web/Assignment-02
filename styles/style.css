@@ -12,6 +12,11 @@
   font-variation-settings:
     "wdth" 100;
 }
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
 
 /* shared style */
 .sc{
@@ -262,10 +267,11 @@ position: relative;
 
 /* Footer related style */
 footer{
-    width: 1440px;
+    width: 1400px;
     height: 348px;
     padding-top: 50px;
     margin: 0 auto;
+   
 }
 
 .footer-container{
@@ -277,6 +283,7 @@ footer{
     align-items: center;
     align-content: center;
     justify-items: center;
+    
 }
 .footer-link1 ul li{
     list-style: none;
@@ -318,6 +325,7 @@ footer{
         margin: 0px;
         padding: 0px;
         margin-left: 0px;
+        overflow-x: hidden;
       }  
     
    nav{
