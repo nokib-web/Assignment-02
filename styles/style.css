@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.noto-serif-font{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* shared style */
+
+
+/* navbar related style */
+nav{
+    width: 1140px;
+    
+    margin: 24px auto;
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+}
+
+.nav-link{
+    color: #8987A1;
+}
+.nav-link-1{
+    color: black;
+}
+#cart{
+    font-weight: normal;
+    font-size: medium;
+}
+nav a{
+    text-decoration: none;
+   
+}
+nav ul li{
+    list-style: none;
+    margin-right: 30px;
+
+    
+}
+#fafa{
+    margin-right: 60px;
+}
+.nav-links{
+    display: flex;
+    gap: 48px;
+    align-items: center;
+    
+}
+
+
+/* bannar style */
+.sc{
+    color: #E95A08;
+}
+.bannar-title{
+    font-size: 65px;
+    font-weight: bold;
+}
+.bannar{
+    display: flex;
+    width: 100%;
+    width: 1140px;
+    margin: 120px auto;
+    
+}
+.bannar-description{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+    
+
+@media screen and (max-width:576px){
+    nav{
+        margin: 0 auto;
+       
+        
+    }
+    .logo{
+        width: 63px;
+        height: 38px;
+    }
+    nav div li{
+        display: none;
+    }
+  
+    }
+
+    
+
+
+
+
