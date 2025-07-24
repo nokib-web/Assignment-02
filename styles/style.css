@@ -80,7 +80,10 @@ nav ul li{
 
 .plant{
     text-align: center;
-  
+    justify-items: center;
+   
+   
+   
 }
 .plant-title{
     font-size: 50px;
@@ -92,17 +95,18 @@ nav ul li{
 }
 
 .card-container{
-    width: 1140px;
-    /* height: 1000px; */
+    max-width: 1140px;
+    
     margin: 50px auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 50px;
+    justify-items: center;
+    gap: 30px;
     align-items: center;
 }
 .card{
     width: 240px;
-    height: 450px;
+    height: 500px;
     text-align: center;
 
 }
@@ -131,21 +135,20 @@ nav ul li{
 /* flower slover section style */
 .flower-lover{
     display: flex;
-    gap: 60px;
-    margin: 200px auto;
+    gap: 30px;
+    margin: 0px auto;
+    margin-top: 300px;
     width: 1140px;
-  
    
-}
-.flower-lover img{
-    width: 100%;
 }
 
 .badge{
     width: 286px;
     height: 286px;
-    margin-left: 347px;
-    margin-top: -127px;
+  margin-left: 347px;
+  
+  margin-top: -127px;
+   
     position: absolute;
     
 }
@@ -157,6 +160,23 @@ nav ul li{
     font-size: 22px;
     color: #8987A1;
     gap: 0px;
+}
+
+/* deals section style */
+.deals{
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+
+}
+.deals-title{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.deals-description{
+    font-size: 22px;
+    color:rgba(0, 0, 0, 0.5) ;
 }
 
 
@@ -207,6 +227,7 @@ nav ul li{
     .plant{
         text-align: center;
         justify-items: center;
+        margin-left: 100px;
     }
     .plant-description{
         text-align: center;
@@ -222,27 +243,41 @@ nav ul li{
   }
      .card{
         height: fit-content;
-        width:171px;
-        height: auto;
-     } 
+        width:100%;
+  }
   
 /* lover responsive */
 .flower-lover{
     flex-direction: column;
-    text-align: center;
+   
     justify-items: center;
+    
     width: 100%;
     position: none;
-    
+    margin: 0 auto;
+}
+
+
+.lover-item{
+    width: 100%;
+    margin-left: 50px;
+}
+.lover-title{
+    text-align: center;
 }
 .badge{
     display: none;
     position: none;
+
+}
+
+/* deals responsive */
+.deals{
+    text-align: center;
+    margin-left: 50px;
     
 }
-.flower-lover img{
-    width: 100%;
-}
+
 
 
 }
