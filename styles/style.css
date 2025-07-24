@@ -269,11 +269,17 @@ padding-left: 20px;
 
    /* navbar and bannar responsive */
     
-        
+      body{
+        max-width: 576px;
+        margin: 0px;
+        padding: 0px;
+        margin-left: 0px;
+      }  
     
    nav{
         margin: 0 auto;
         margin-left: 20px;
+       
        
         
     }
@@ -288,15 +294,22 @@ padding-left: 20px;
     .navbar{
         width: 100%;
         margin: 0 auto;
+         display: flex;
+        justify-content: space-between;
        
     }
     /* bannar responsive */
     .bannar{
         flex-direction: column-reverse;
-        width: 100%;
+        width: 95%;
         justify-items: center;
        
     }
+    .bannar img{
+        width: 530px;
+        /* margin-right: 10px; */
+    }
+    
     .bannar-title{
         font-size: 24px;
         font-weight: bold;
@@ -314,6 +327,9 @@ padding-left: 20px;
         justify-items: center;
         margin-left: 100px;
     }
+    .plant-title{
+        font-size: 24px;
+    }
     .plant-description{
         text-align: center;
         justify-items: center;
@@ -322,13 +338,13 @@ padding-left: 20px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
-        max-width: 576px;
+        /* max-width: 576px; */
 
         
   }
      .card{
         height: fit-content;
-        width:100%;
+        width:auto;
         
   }
   
@@ -342,6 +358,9 @@ padding-left: 20px;
     position: none;
     margin: 0 auto;
 }
+.flower-lover img{
+    /* width: 100%; */
+}
 
 
 .lover-item{
@@ -350,6 +369,7 @@ padding-left: 20px;
 }
 .lover-title{
     text-align: center;
+    font-size: 24px;
 }
 .badge{
     display: none;
@@ -362,6 +382,9 @@ padding-left: 20px;
     text-align: center;
     margin-left: 50px;
     
+}
+.deals-title{
+    font-size: 24px;
 }
 
 
@@ -380,7 +403,7 @@ padding-left: 20px;
     position: relative;
 }
 .join-card img{
-    width: 100%;
+    width: 95%;
     
     
 }
