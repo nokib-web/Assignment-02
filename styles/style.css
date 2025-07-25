@@ -1,8 +1,3 @@
-/* *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-} */
 
 
 
@@ -163,7 +158,7 @@ nav ul li {
     border: none;
 }
 
-/* flower slover section style */
+/* flower lover section style */
 .flower-lover {
     display: flex;
     gap: 60px;
@@ -183,9 +178,10 @@ nav ul li {
     position: absolute;
 
 }
-
+ 
+/* badg spin related style */
 .badge-spinner{
-    animation: spin 4s linear infinite ;
+    animation: spin 10s linear infinite ;
 
 }
 @keyframes spin {
