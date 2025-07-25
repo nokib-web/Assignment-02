@@ -555,6 +555,31 @@ footer {
         font-size: 24px;
     }
 
+    
+    /* discount section responsive */
+    .discount-card-container {
+        flex-direction: column;
+        max-width: 576px;
+        margin: 20px auto;
+       
+        display: block;
+        justify-items: center;
+    }
+
+    .right-card {
+        width: 367px;
+        height: 201px;
+        margin-top: 20px;
+    }
+
+    #rc-title {
+        font-size: 20px;
+    }
+
+    #rc-shopnow {
+        font-size: 16px;
+    }
+
 
 
 
@@ -605,28 +630,5 @@ footer {
         margin-left: 20px;
     }
 
-    /* discount section responsive */
-    .discount-card-container {
-        flex-direction: column;
-        max-width: 576px;
-        margin: 20px auto;
-        display: block;
-        justify-items: center;
-        margin-bottom: 0;
-        padding-bottom: 0;
-    }
-
-    .right-card {
-        width: 367px;
-        height: 201px;
-    }
-
-    #rc-title {
-        font-size: 20px;
-    }
-
-    #rc-shopnow {
-        font-size: 16px;
-    }
 
 }
